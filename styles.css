@@ -78,7 +78,8 @@ header {
   margin-left: 1px;
 }
 
-#menu, header label {
+#menu,
+header label {
   display: none;
 }
 
@@ -88,7 +89,7 @@ header label {
   cursor: pointer;
 }
 
-@media(max-width: 991px) {
+@media (max-width: 991px) {
   header {
     padding: 20px;
   }
@@ -97,8 +98,8 @@ header label {
   }
   .navbar {
     position: absolute;
-    top: 100%; 
-    left: 0; 
+    top: 100%;
+    left: 0;
     right: 0;
     background-color: #fff;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
