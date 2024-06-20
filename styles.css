@@ -49,3 +49,37 @@ header {
   color: #333;
   display: block;
 }
+
+.navbar ul li a:hover {
+  color: #fff;
+  background: #333;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  width: 200px;
+  background: #fff;
+}
+
+.dropdown-content li {
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.dropdown:hover > .dropdown-content {
+  display: initial ;
+}
+
+.dropdown .dropdown-content .dropdown-content {
+  top: 0;
+  left: -100%;
+  margin-left: 1px;
+}
+
+@media(max-width: 991px) {
+  header {
+    
+  }
+}
